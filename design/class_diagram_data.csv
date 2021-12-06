@@ -1,0 +1,133 @@
+Id,Name,Shape Library,Page ID,Contained By,Group,Line Source,Line Destination,Source Arrow,Destination Arrow,Text Area 1,Text Area 2,Text Area 3
+1,Page,,,,,,,,,Page 2,,
+2,Class,UML,1,,,,,,,CVS,,+Write_to_CVS():none
+3,Class,UML,1,,,,,,,Check,,"+Number_of_empty_tracks(_YYMMDD_):integer
++Number_of_busy_tracks(_count):integer
++Count _available_gates():list
++Count_busy_gates():list
++Counts_flights_off():integer
++Counts_flights_taken_in():integer
++Find_flights():list
++Count_check_in():integer
++Count_security():integer
++Count_boarded():integer
++Ask_for_date():integer
++Ask_for_time():integer"
+4,Class,UML,1,,,,,,,Airport,"+Tracks:string = none
++Airplanes:string = none
++Passengers:string = none
++Pilots:string = none
++Attendants:string = none
++Travellers:string = none",+Populate_airport():string
+5,Class,UML,1,,,,,,,Flights,"+ID:string = string
++Plate:string = string
++Destiny:string = string
++Departure:string = string
++Arrival:string = string
++Status:string = string
++Arriving_gate:string = string
++Departure_gate:string = string
++Take_off_track:string = string
++Landing_track:string = string
++Pilot:string = string
++Copilot:string = string
++Attendants:string = string",
+6,Class,UML,1,,,,,,,Planes,"+Plate:string = string
++Manufacturer:string = string
++Model:string = string
++Passengers:string = string
++Luggage:string = string
++Max_speed:string = string",
+7,Class,UML,1,,,,,,,AirportAD,,"+Read_pilots_file():dictionary
++Read_attendants_file():dictionary
++Read_travellers_file():dictionary
++Read_passengers_file():dictionary
++Read_planes_file():dictionary
++Read_flights_file():dictionary"
+8,Class,UML,1,,,,,,,UserInfoFlight,,"+Ask_for_flight_info_status():string
++Ask_for_flight_info_departure_gate():string
++Ask_for_flight_info_arrival_gate():string
++Ask_for_flight_info_take_off_track():string
++Ask_for_flight_info_landing_track():string
++Ask_for_flight_info_pilot():string
++Ask_for_flight_info_copilot():string
++Ask_for_flight_info_attendants():string"
+9,Class,UML,1,,,,,,,Menu,,"+Display_menu():string
++Pilot_menu():string
++Attendant_menu():string
++Taveller_menu():string
++Passenger_menu():string
++Flight_menu():string
++Crew_menu():string
++Ask_for_input_menu():string"
+10,Class,UML,1,,,,,,,Passenger,"+Flight:string = string
++Passport:string = string
++Flight_class:string = string
++Seat:string = string
++Location:string = string",
+11,Class,UML,1,,,,,,,UserInfoPassenger,,"+Ask_for_passenger_info_seat():string
++Ask_for_passenger_info_flight_class():string
++Ask_for_passenger_info_check_point():string
+"
+12,Class,UML,1,,,,,,,UserInfoTraveller,,"+Ask_for_traveller_info_marital_status():string
++Ask_for_traveller_info_gender():string
++Ask_for_traveller_info_birth_date():string
++Ask_for_traveller_info_forename():string
++Ask_for_traveller_info_surname():string"
+13,Class,UML,1,,,,,,,UserInfoAttendant,,+Ask_for_attendant_info_marital_status():string
+14,Class,UML,1,,,,,,,UserInfoPilot,,+Ask_for_pilot_info_marital_status():string
+15,Class,UML,1,,,,,,,UserAdd,,"+Ask_for_flight_info():string
++Ask_for_traveller_info():string
++Ask_for_passenger_info():string"
+16,Class,UML,1,,,,,,,UserTimes,,"+Ask_for_date(_YYMMDD_):integer
++Ask_for_time(_HHMM_):integer"
+17,Class,UML,1,,,,,,,Crew,"+Passport:string = string
++Forename:string = string
++Surname:string = string
++Date_off_birth:string = string
++Country:string = string
++Gender:string = string
++Marital_status:string = string",
+18,Class,UML,1,,,,,,,ModifyPilot,,+Modify_pilot_marital_status():string
+19,Class,UML,1,,,,,,,ModifyPassenger,,"+Modify_passenger_seat():string
++Modify_passenger_flight_class():string
++Modify_passenger_check_point_location():string"
+20,Class,UML,1,,,,,,,ModifyTraveller,,"+Modify_traveller_marital_status():string
++Modify_traveller_gender():string
++Modify_traveller_birth_date():string
++Modify_traveller_forename():string
++Modify_traveller_surname():string"
+21,Class,UML,1,,,,,,,ModifyAttendant,,+Modify_attendant_marital_status():string
+22,Class,UML,1,,,,,,,ModifyFlight,,"+Modify_flight_status():string
++Modify_flight_departure_gate():string
++Modify_flight_arrival_gate():string
++Modify_traveller_forename():string
++Modify_flight_take_off_track():string
++Modify_flight_landing_track():string
++Modify_flight_pilot():string
++Modify_flight_copilot():string
++Modify_flight_attendants():string"
+23,Line,,1,,,3,2,None,Composition,,,
+24,Line,,1,,,16,3,None,Composition,,,
+25,Line,,1,,,3,4,None,Aggregation,,,
+26,Line,,1,,,10,5,None,Composition,,,
+27,Line,,1,,,7,4,None,Aggregation,,,
+28,Line,,1,,,5,4,None,Aggregation,,,
+29,Line,,1,,,6,5,None,Aggregation,,,
+30,Line,,1,,,9,7,None,Aggregation,,,
+31,Line,,1,,,17,5,None,Composition,,,
+32,Line,,1,,,15,12,None,Generalization,,,
+33,Line,,1,,,15,13,None,Generalization,,,
+34,Line,,1,,,15,14,None,Generalization,,,
+35,Line,,1,,,12,20,None,Composition,,,
+36,Line,,1,,,13,21,None,Composition,,,
+37,Line,,1,,,14,18,None,Composition,,,
+38,Line,,1,,,20,17,None,Composition,,,
+39,Line,,1,,,21,38,None,None,,,
+40,Line,,1,,,18,38,None,None,,,
+41,Line,,1,,,15,8,None,Generalization,,,
+42,Line,,1,,,8,22,None,Composition,,,
+43,Line,,1,,,22,5,None,Composition,,,
+44,Line,,1,,,11,19,None,Composition,,,
+45,Line,,1,,,19,10,None,Composition,,,
+46,Line,,1,,,15,11,None,Generalization,,,
