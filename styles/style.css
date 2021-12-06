@@ -1,0 +1,131 @@
+
+@font-face {
+    font-family: SF Pro Rounded;
+    src: url(SF-Pro-Rounded-Regular.otf);
+}
+
+@font-face {
+    font-family: SF Mono;
+    src: url(SF-Mono-Regular.otf);
+}
+
+h2 {
+    font-family: SF Mono;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+	background:url(congruent_outline.png); 
+	background-repeat:repeat;
+	background-attachment:fixed;
+
+    font-size: 19px;
+    
+	line-height:20px;
+
+}
+
+
+span.reserved {
+    color: white;
+    font-weight: bold;
+    font-family: SF Pro Rounded;
+    
+}
+
+span.identifier {
+    color: rgb(236, 131, 61);
+    font-family: SF Pro Rounded;
+    
+}
+
+span.cons_int {
+    color: rgb(149, 236, 252);
+    font-family: SF Mono;
+    font-weight: lighter;
+
+}
+
+span.cons_float {
+    color: rgb(255, 226, 164);
+    font-weight: lighter;
+    font-family: SF Mono;
+    
+}
+
+span.special {
+    color: rgb(3, 167, 243);
+    font-weight: lighter;
+    font-family: SF Mono;
+    
+}
+
+span.comment {
+    color: gray;
+    font-style: italic;
+    font-family: SF Pro Rounded;
+    font-weight: lighter;
+    
+}
+
+span.notvalid {
+    color: rgb(202, 96, 96);
+    text-decoration: underline;
+    
+}
+
+
+h4 {
+    text-align: left;
+    color: aliceblue;
+}
+
+span.box_rounded_1 {
+    color: rgb(236, 131, 61);
+    font-size: 17px;
+    font-family: SF Pro Rounded;   
+}
+
+span.box_rounded_2 {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: SF Pro Rounded;
+}
+
+span.box_rounded_3 {
+    color: rgb(149, 236, 252);
+    font-size: 17px;
+    font-family: SF Mono;
+    font-weight: lighter;
+}
+
+span.box_rounded_4 {
+    color: rgb(255, 226, 164);
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: SF Mono;
+}
+
+span.box_rounded_5 {
+    color: rgb(3, 167, 243);
+    font-size: 17px;
+    font-weight: lighter;
+    font-family: SF Mono;
+}
+
+span.box_rounded_6 {
+    color: gray;
+    font-size: 17px;
+    font-style: italic;
+    font-family: SF Pro Rounded;
+    font-weight: lighter;
+}
+
+span.box_rounded_7 {
+    color: rgb(202, 96, 96);
+    font-size: 17px;
+    text-decoration: underline;
+}
